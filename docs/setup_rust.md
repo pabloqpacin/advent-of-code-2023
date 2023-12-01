@@ -77,6 +77,13 @@ mod tests {
 }
 ```
 
+- Commands
+
+
+```bash
+cargo test
+```
+
 <details>
 <summary>Notes</summary>
 
@@ -88,13 +95,4 @@ mod tests {
   - When you run tests using cargo test, Rust will include the code within the #[cfg(test)] block, and any associated test functions marked with #[test] will be executed. This allows developers to separate test code from the main codebase and ensures that the test code is only compiled and run when needed.
 
 </details>
-
-
-- Commands
-
-
-```bash
-cargo test
-```
-
 
