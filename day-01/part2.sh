@@ -8,7 +8,6 @@ doc='input.txt'
 if [[ -f $lines ]]; then rm lines.txt; fi
 if [[ -f $sum ]]; then rm sum.txt; fi
 
-
 while IFS= read -r line; do
 
     first_pattern=$(echo "$line" | grep -E -o "one|two|three|four|five|six|seven|eight|nine|[0-9]" | head -n 1)
